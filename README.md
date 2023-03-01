@@ -24,12 +24,14 @@ The connection string will be provided.
 This application uses the following libraries:
 
 - System.Data.SqlClient
+- DotNetEnv
+- MySql.Data
 - System.Collections.Generic
 - System.Text.RegularExpressions
 
 ## How to run
-To run this application, make sure you have the above-mentioned libraries installed and the MySQL server running. Then, compile and run the Program.cs file using the C# compiler.
-You will also need to great a .env file which will contain the connection string to connect to the database.
+To run this application, make sure you have the above-mentioned libraries installed and the database connection string. Then, compile and run the Program.cs file using the C# compiler.
+You will also need to create a .env file which will contain the connection string to the database.
 ```
 dotnet run
 ```
