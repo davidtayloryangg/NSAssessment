@@ -18,7 +18,7 @@ When the user selects the "Add new employee" option, the application prompts the
 The SQL database used for this application is through Azure. There is a DBInit file inbedded in the project under the src folder for DB initial poppulation.
 The connection string will be provided.
 
-![Database Schema](img/dbsc.jpg)
+![Database Schema](/dbsc.jpg)
 
 ## Dependencies
 This application uses the following libraries:
